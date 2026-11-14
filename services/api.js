@@ -1,5 +1,5 @@
 // const API_URL = 'http://localhost:5000/api';
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://your-backend-app.onrender.com/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://doctor-tracker-backend-render-faysal.onrender.com';
 
 // Admin Login API
 export async function adminLogin(email, password) {
